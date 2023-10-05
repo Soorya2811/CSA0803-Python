@@ -1,0 +1,24 @@
+# Get user input for a letter                                                                              R.SOORY SRI(192210404)
+letter = input("Enter a letter ('A' to 'Z'): ")
+
+# Convert the input to uppercase to handle both upper and lower case letters
+letter = letter.upper()
+
+# Use nested if statements to display the corresponding word
+if letter == 'A':
+    print("Apple")
+elif letter == 'B':
+    print("Bat")
+elif letter == 'C':
+    print("Cat")
+elif letter == 'D':
+    print("Dog")
+# Add more cases for other letters as needed
+elif letter == 'Z':
+    print("Zip")
+else:
+    print("Invalid input. Please enter a letter from 'A' to 'Z'.")
+OUTPUT:
+Enter a letter ('A' to 'Z'): B
+Bat
+> 
