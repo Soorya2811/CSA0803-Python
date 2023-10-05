@@ -1,0 +1,13 @@
+# Define the rental rates
+new_movie_rate = 75  # Rs.75 per day for new movies
+old_movie_rate = 50  # Rs.50 per day for old movies
+
+# Get the number of new and old movies rented from the user
+num_new_movies = int(input("Enter the number of new movies rented: "))
+num_old_movies = int(input("Enter the number of old movies rented: "))
+
+# Calculate the total cost for the rentals
+total_cost = (num_new_movies * new_movie_rate) + (num_old_movies * old_movie_rate)
+
+# Display the total cost to the user
+print("Total cost for rentals: Rs.", total_cost)
