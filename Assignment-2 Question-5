@@ -1,0 +1,13 @@
+# Open the first file for reading                                                                                                                          R.SOORYA SRI(192210404)
+with open('file1.txt', 'r') as file1:
+    # Open the second file for reading
+    with open('file2.txt', 'r') as file2:
+        # Open a new file for writing the combined lines
+        with open('combined.txt', 'w') as combined_file:
+            # Read lines from both files simultaneously
+            for line1, line2 in zip(file1, file2):
+                # Combine the lines and write them to the new file
+                combined_line = f"{line1.strip()} {line2.strip()}\n"
+                combined_file.write(combined_line)
+
+print("Lines from file1.txt and file2.txt have been combined and written to combined.txt.")
