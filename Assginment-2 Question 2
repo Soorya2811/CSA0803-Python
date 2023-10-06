@@ -1,0 +1,18 @@
+# Create a list of countries                                                                                                             R.SOORYA SRI(192210404)
+country_list = ["United States", "Canada", "Australia", "India", "Germany", "France", "Japan"]
+
+# Convert the list to a set to remove duplicates
+country_set = set(country_list)
+
+# Print the names of the countries in order
+for country in country_list:
+    print(country)
+OUTPUT:
+United States
+Canada
+Australia
+India
+Germany
+France
+Japan
+> 
